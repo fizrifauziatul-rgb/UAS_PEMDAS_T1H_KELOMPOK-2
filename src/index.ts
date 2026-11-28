@@ -6,9 +6,15 @@ import * as readline from 'readline';
 type Kategori= "VIP" | "FESTIVAL" | "REGULER"
 
 interface Reservasi {
+<<<<<<< HEAD
   id: string;
   namaPemesan: string;
   namaKonser: string;
+=======
+  namaKonser: string;
+  id: string;
+  namaPemesan: string;
+>>>>>>> 212485cf91044f2146808d4eafe37f8f3eb60013
   kategoriTiket: Kategori;
   jumlahTiket: number;
   hargaSatuan: number;
@@ -21,6 +27,7 @@ const HARGA_FESTIVAL = 200000;
 const HARGA_REGULER = 100000;
 const BATAS_DISKON_ROMBONGAN = 5;
 const PERSEN_DISKON = 10;
+<<<<<<< HEAD
 const daftarReservasi: Reservasi[] = [];
 let nomorBerikutnya: number = 1;
 
@@ -230,3 +237,5 @@ function fiturBelumTersedia(namaFitur: string): void {
 
 muatDataAwal(); 
 jalankanMenu(); 
+=======
+>>>>>>> 212485cf91044f2146808d4eafe37f8f3eb60013
