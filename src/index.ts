@@ -8,10 +8,13 @@ type Kategori= "VIP" | "FESTIVAL" | "REGULER"
 interface Reservasi {
   id: string;
   namaPemesan: string;
+<<<<<<< HEAD
+=======
   namaKonser: string;
   namaKonser: string;
   id: string;
   namaPemesan: string;
+>>>>>>> origin/main
   kategoriTiket: Kategori;
   jumlahTiket: number;
   hargaSatuan: number;
@@ -233,4 +236,8 @@ function fiturBelumTersedia(namaFitur: string): void {
 }
 
 muatDataAwal(); 
+<<<<<<< HEAD
+jalankanMenu(); 
+=======
 jalankanMenu();
+>>>>>>> origin/main
