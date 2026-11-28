@@ -6,15 +6,12 @@ import * as readline from 'readline';
 type Kategori= "VIP" | "FESTIVAL" | "REGULER"
 
 interface Reservasi {
-<<<<<<< HEAD
   id: string;
   namaPemesan: string;
   namaKonser: string;
-=======
   namaKonser: string;
   id: string;
   namaPemesan: string;
->>>>>>> 212485cf91044f2146808d4eafe37f8f3eb60013
   kategoriTiket: Kategori;
   jumlahTiket: number;
   hargaSatuan: number;
@@ -236,6 +233,4 @@ function fiturBelumTersedia(namaFitur: string): void {
 }
 
 muatDataAwal(); 
-jalankanMenu(); 
-=======
->>>>>>> 212485cf91044f2146808d4eafe37f8f3eb60013
+jalankanMenu();
